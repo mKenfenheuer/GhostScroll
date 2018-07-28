@@ -20,6 +20,12 @@
 
 </header>
 
+<div class="navbar-top">
+    {{#foreach tag}}
+    <a class="tag" href="{{url}}">{{title}}</a>
+    {{/foreach}}
+</div>
+
 {{! The main content area on the homepage }}
 <main class="content" role="main">
 
