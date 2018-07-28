@@ -461,6 +461,25 @@ ul li {
 
 }
 
+.navbar-top {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    float: right;
+    filter: blur(5px); 
+    -webkit-filter: blur(6px); 
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    filter: url(#blur);filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='6');
+}
+
+.navbar-top > a {
+    color: #ffffff;
+    padding: 20px;
+    text-shadow: 0px 0px 30px #000000;
+}
+
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
 #blog-logo img {
